@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: skyblue;
+            color: rgb(0, 48, 77);
+            font-family: arial;
+            font-size: 20pt;
+        }
+        select {
+            margin-top: 30px;
+        }
+        input{
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="placa">
+    
+        Digite um número (1 a 100): <br>
+        <input type="number" id="num">
+        <button onclick="add()">Adcionar</button>
+        
+    </div>
+    <div id="selection">
+        <select id="Lista" size="10" multiple>
+
+        </select>
+        <br>
+        <input type="button" value="Verificar" onclick="verificar()">
+    </div>
+    <div id="res"></div>
+
+    <script src="js/exercicio.js"></script>
+</body>
+</html>

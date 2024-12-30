@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boas vindas</title>
+</head>
+<body>
+    
+    <script>
+        document.body.style.backgroundColor = "black";
+        document.body.style.color = "white";
+        let nome = window.prompt("Qual é seu nome? ");
+        let cor = window.prompt("Qual é sua cor favorita? ").toLocaleLowerCase(); 
+        let titleCreate = document.createElement('h1');
+        document.body.style.backgroundColor = cor;
+        titleCreate.innerHTML = `Olá ${nome}. Seja muito bem vindo`;
+        document.body.appendChild(titleCreate);
+        if(cor == "preto"){
+            titleCreate.innerHTML = `Olá ${nome}. Seja muito bem vindo`;
+            document.body.appendChild(titleCreate);
+            document.body.style.backgroundColor = "black";
+            
+        }
+        else if(cor == "braco" || cor == "branca"){
+            titleCreate.innerHTML = `Olá ${nome}. Seja muito bem vindo`;
+            document.body.appendChild(titleCreate);
+            document.body.style.backgroundColor = "white";
+            document.body.style.color = "black";
+        }
+        else if(cor == "vermelho"){
+            titleCreate.innerHTML = `Olá ${nome}. Seja muito bem vindo`;
+            document.body.appendChild(titleCreate);
+            document.body.style.backgroundColor = "red";
+        }
+        else if(cor == "azul"){
+            titleCreate.innerHTML = `Olá ${nome}. Seja muito bem vindo`;
+            document.body.appendChild(titleCreate);
+            document.body.style.backgroundColor = "blue";
+        }
+        else if(cor == "rosa"){
+            titleCreate.innerHTML = `Olá ${nome}. Seja muito bem vindo`;
+            document.body.appendChild(titleCreate);
+            document.body.style.backgroundColor = "deeppink";
+        }
+        else if(cor == "verde"){
+            titleCreate.innerHTML = `Olá ${nome}. Seja muito bem vindo`;
+            document.body.appendChild(titleCreate);
+            document.body.style.backgroundColor = "green";
+        }
+        else if(cor == "roxo"){
+            titleCreate.innerHTML = `Olá ${nome}. Seja muito bem vindo`;
+            document.body.appendChild(titleCreate);
+            document.body.style.backgroundColor = "purple";
+        }
+        else if(cor == "amarelo"){
+            titleCreate.innerHTML = `Olá ${nome}. Seja muito bem vindo`;
+            document.body.appendChild(titleCreate);
+            document.body.style.backgroundColor = "yellow";
+        }
+        else if(cor == "laranja"){
+            titleCreate.innerHTML = `Olá ${nome}. Seja muito bem vindo`;
+            document.body.appendChild(titleCreate);
+            document.body.style.backgroundColor = "orange";
+        }/*
+        else{
+            titleCreate.innerHTML = `Olá ${nome}. Seja muito bem vindo.`;
+            titleCreate.innerHTML += `<br>Não conheço essa cor. Porque não tenta novamente?`;
+            document.body.appendChild(titleCreate);
+            document.body.style.color = "black";
+            
+        }*/
+    </script>
+</body>
+</html>
